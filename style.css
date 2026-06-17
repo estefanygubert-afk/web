@@ -1,37 +1,78 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minha primeira página web</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  <header>
-    <h1>Bem-vindo ao meu site 🚀</h1>
-    <p>Minha primeira página publicada no GitHub Pages</p>
-  </header>
+/* Página */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
 
-  <main>
-    <section>
-      <h2>Sobre este projeto</h2>
-      <p>Este site foi criado do zero usando HTML, CSS e JavaScript.</p>
+/* Cabeçalho */
+.header {
+  background: #24292e;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
 
-      <button onclick="mostrarMensagem()">Clique aqui</button>
+/* Container central */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
 
-      <p id="mensagem"></p>
-    </section>
+/* Cards */
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 
-    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" 
-         alt="Computador com código na tela representando programação"
-         class="imagem">
-  </main>
+/* Imagem */
+.imagem {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
 
-  <footer>
-    <p>Feito com 💻 e GitHub Pages</p>
-  </footer>
+/* Botão */
+button {
+  background: #0366d6;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
 
-  <script src="script.js"></script>
-</body>
-</html>
+/* Hover do botão */
+button:hover {
+  background: #024ea2;
+  transform: scale(1.05);
+}
+
+/* Mensagem */
+#mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
