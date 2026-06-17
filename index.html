@@ -1,37 +1,32 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minha primeira página web</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
 
-  <header>
+  <header class="header">
     <h1>Bem-vindo ao meu site 🚀</h1>
-    <p>Minha primeira página publicada no GitHub Pages</p>
+    <p>Minha primeira página com GitHub Pages</p>
   </header>
 
-  <main>
-    <section>
-      <h2>Sobre este projeto</h2>
-      <p>Este site foi criado do zero usando HTML, CSS e JavaScript.</p>
+  <main class="container">
+
+    <section class="card">
+      <h2>Sobre o projeto</h2>
+      <p>Este site foi criado com HTML, CSS e JavaScript.</p>
 
       <button onclick="mostrarMensagem()">Clique aqui</button>
 
       <p id="mensagem"></p>
     </section>
 
-    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" 
-         alt="Computador com código na tela representando programação"
-         class="imagem">
+    <section class="card">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+           alt="Computador com código na tela"
+           class="imagem">
+    </section>
+
   </main>
 
-  <footer>
+  <footer class="footer">
     <p>Feito com 💻 e GitHub Pages</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
-</html>
