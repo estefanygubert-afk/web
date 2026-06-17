@@ -8,7 +8,7 @@ Este é um projeto simples de página web criado com HTML, CSS e JavaScript, pub
 
 Você pode acessar o site aqui:
 
-👉 https://SEU-USUARIO.github.io/meu-site/
+👉 https://estefanygubert.github.io/meu-site/
 
 ---
 
